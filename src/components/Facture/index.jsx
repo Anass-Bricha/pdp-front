@@ -1,6 +1,31 @@
 import "./style.scss"
 import effyisLogo from "../../assets/images/effyisLogo.png"
+import BasicTable from "./table"
 const Facture = () => {
+
+    const rows = [{
+        lignePosteNumero: 88,
+        lignePosteReference: "est",
+        lignePosteDenomination: "test",
+        lignePosteQuantite: 888,
+        lignePosteUnite: "test",
+        lignePosteMontantUnitaireHT: 888,
+        lignePosteMontantRemiseHT: 888,
+        lignePosteTauxTva: 10,
+        lignePosteTauxTvaManuel: 888
+    },
+    {
+        lignePosteNumero: 88,
+        lignePosteReference: "est",
+        lignePosteDenomination: "test",
+        lignePosteQuantite: 888,
+        lignePosteUnite: "test",
+        lignePosteMontantUnitaireHT: 888,
+        lignePosteMontantRemiseHT: 888,
+        lignePosteTauxTva: 10,
+        lignePosteTauxTvaManuel: 888
+    }
+    ]
 
     return ( 
         <div className="facture-container">
@@ -69,6 +94,7 @@ const Facture = () => {
                         </div>
                     </div>
                 </div>
+                <BasicTable rows={rows}/>
             </div>
         </div>
      )
