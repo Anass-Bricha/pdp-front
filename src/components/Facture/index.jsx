@@ -35,47 +35,137 @@ const Facture = () => {
                     <img src={effyisLogo} alt="Logo here" />
                 </div>
                 <div className="facture-name">
-                    <h2>Facture name</h2>
-                    <h2>Facture N</h2>
-                    <h2>Mode de depo</h2>
-                    <h2>Date de Facture</h2>
-                    <h2>Date d'Expedite</h2>
+                    <div className="inputs">
+                        <input type="text" />
+                        <h2>Facture name</h2>
+                    </div>
+                    <div className="inputs">
+                        <input type="text" />
+                        <h2>Facture N</h2>
+                    </div>
+                    <div className="inputs">
+                        <input type="text" />
+                        <h2>Mode de depo</h2>
+                    </div>
+                    <div className="inputs">
+                        <input type="text" />
+                        <h2>Date de Facture</h2>
+                    </div>
+                    <div className="inputs">
+                        <input type="text" />
+                        <h2>Date d'Expedite</h2>
+                    </div>
+                    
                 </div>
                 <div className="supp-client-infos">
                     <div className="supplier">
-                        <h2>Mon Entreprise</h2>
-                        <h3>address</h3>
-                        <h3>Country</h3>
-                        <h3>GLN</h3>
-                        <h3>SIRET/SIREN</h3>
-                        <h3>N TVA</h3>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h2>Mon Entreprise</h2>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>address</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Country</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>GLN</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>SIRET/SIREN</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>N TVA</h3>
+                        </div>
                     </div>
                     <div className="client">
                         <h2>Client Entreprise</h2>
-                        <h3>address</h3>
-                        <h3>Country</h3>
-                        <h3>GLN</h3>
-                        <h3>SIRET/SIREN</h3>
-                        <h3>N TVA</h3>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>address</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>N TVA</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>GLN</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>SIRET/SIREN</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>N TVA</h3>
+                        </div>
                     </div>
                     <div className="cadre-de-facturation">
                         <h2>Cadre de la facturation</h2>
-                        <h3>Code de cadre de facturation</h3>
-                        <h3>Code du Valideur</h3>
-                        <h3>Code du service du valideur</h3>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code de cadre de facturation</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du service du valideur</h3>
+                        </div>
                     </div>
                 </div>
                 <div className="ref-lignTVA-container">
                     <div className="reference-container">
                         <h2>References</h2>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Code du Valideur</h3>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" />
+                            <h3>Mode du Paiement</h3>
+                        </div>
                         <h3>Devise de Facture</h3>
                         <h3>Type de Facture</h3>
                         <h3>Type de Tva</h3>
                         <h3>Motif d'Exoneration de Tva</h3>
                         <h3>Numero de Marche</h3>
                         <h3>Numero de Bon de Commande</h3>
-                        <h3>Numero de Facture Origine</h3>
-                        <h3>Mode du Paiement</h3>
+                        
+                        
                     </div>
                     <div className="ligneT-account-container">
                         <div className="ligneTva-container">
